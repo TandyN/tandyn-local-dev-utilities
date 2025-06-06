@@ -4,8 +4,9 @@
   "description": "Local dev utilities for windows and linux",
   "main": "index.js",
   "bin": {
+    "copy_files": "./dist/bin/copy_files.js",
     "get_and_kill_ports": "./dist/bin/get_and_kill_ports.js",
-    "copy_files": "./dist/bin/copy_files.js"
+    "remove_files": "./dist/bin/remove_files.js"
   },
   "scripts": {
     "build": "tsc"
