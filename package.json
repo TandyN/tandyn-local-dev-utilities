@@ -6,7 +6,8 @@
   "bin": {
     "copy_files": "./dist/bin/copy_files.js",
     "get_and_kill_ports": "./dist/bin/get_and_kill_ports.js",
-    "remove_files": "./dist/bin/remove_files.js"
+    "remove_files": "./dist/bin/remove_files.js",
+    "replace_in_code": "./dist/bin/replace_in_code.js"
   },
   "scripts": {
     "build": "tsc"
