@@ -1,5 +1,5 @@
 {
-  "name": "local-dev-utilities",
+  "name": "tandyn-local-dev-utilities",
   "version": "1.0.0",
   "description": "Local dev utilities for windows and linux",
   "main": "index.js",
