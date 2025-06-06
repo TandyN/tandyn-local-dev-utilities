@@ -3,8 +3,11 @@
   "version": "1.0.0",
   "description": "Local dev utilities for windows and linux",
   "main": "index.js",
+  "bin": {
+    "get_and_kill_ports": "./dist/bin/get_and_kill_ports.js"
+  },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build": "tsc"
   },
   "repository": {
     "type": "git",
@@ -15,5 +18,9 @@
   "bugs": {
     "url": "https://github.com/TandyN/local-dev-utilities/issues"
   },
-  "homepage": "https://github.com/TandyN/local-dev-utilities#readme"
+  "homepage": "https://github.com/TandyN/local-dev-utilities#readme",
+  "devDependencies": {
+    "@types/node": "^22.15.30",
+    "typescript": "^5.8.3"
+  }
 }
