@@ -29,7 +29,24 @@ async function copyRecursive(src: string, dest: string): Promise<void> {
 export default async function copyFilesWindows(src: string, dest: string): Promise<void> {
   try {
     const from = normalize(src);
-    const to = normalize(dest);
+    const stats = await stat(from);
+    let to = normalize(dest);
+
+    if (stats.isDirectory()) {
+      // Source is a directory: nest it into the destination
+      to = path.join(to, path.basename(from));
+    } else {
+      // Source is a file
+      try {
+        const destStats = await stat(to);
+        if (destStats.isDirectory()) {
+          to = path.join(to, path.basename(from));
+        }
+      } catch {
+        // Destination doesn't exist yet — that's fine
+      }
+    }
+
     await copyRecursive(from, to);
     console.log(`✅ Copied from "${from}" to "${to}" (Windows)`);
   } catch (err) {
