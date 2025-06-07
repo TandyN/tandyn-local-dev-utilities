@@ -9,6 +9,10 @@
     "remove_files": "./dist/bin/remove_files.js",
     "replace_in_code": "./dist/bin/replace_in_code.js"
   },
+  "files": [
+  "dist",
+  "README.md"
+  ],
   "scripts": {
     "build": "tsc"
   },
