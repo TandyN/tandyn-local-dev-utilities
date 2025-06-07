@@ -9,7 +9,7 @@ Some local scripts for dev operations
 Install globally via npm:
 
 ```bash
-npm install -g tandyn-local-dev-utilities
+npm install -g @tandyn/local-dev-utilities
 ```
 
 ---
