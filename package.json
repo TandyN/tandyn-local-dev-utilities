@@ -10,8 +10,8 @@
     "replace_in_code": "./dist/bin/replace_in_code.js"
   },
   "files": [
-  "dist",
-  "README.md"
+    "dist",
+    "README.md"
   ],
   "publishConfig": {
     "access": "public"
