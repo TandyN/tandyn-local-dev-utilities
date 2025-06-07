@@ -1,5 +1,5 @@
 {
-  "name": "tandyn-local-dev-utilities",
+  "name": "@tandyn/local-dev-utilities",
   "version": "1.0.0",
   "description": "Local dev utilities for windows and linux",
   "main": "index.js",
@@ -18,14 +18,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/TandyN/local-dev-utilities.git"
+    "url": "git+https://github.com/TandyN/tandyn-local-dev-utilities.git"
   },
   "author": "TandyN",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/TandyN/local-dev-utilities/issues"
+    "url": "https://github.com/TandyN/tandyn-local-dev-utilities/issues"
   },
-  "homepage": "https://github.com/TandyN/local-dev-utilities#readme",
+  "homepage": "https://github.com/TandyN/tandyn-local-dev-utilities#readme",
   "devDependencies": {
     "@types/node": "^22.15.30",
     "typescript": "^5.8.3"
