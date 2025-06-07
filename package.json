@@ -1,6 +1,6 @@
 {
   "name": "@tandyn/local-dev-utilities",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Local dev utilities for windows and linux",
   "main": "index.js",
   "bin": {
