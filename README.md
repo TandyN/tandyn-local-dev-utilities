@@ -1,4 +1,4 @@
-# 🧰 local-dev-utlities
+# 🧰 @tandyn/local-dev-utlities
 
 Some local scripts for dev operations
 
@@ -72,3 +72,5 @@ replace_in_code -search_text "var" -replace_text "let" -directory ./src -extensi
 - TypeScript
 - Node.js
 
+## Notes
+- Windows CMD does not play well with single quote arguments. When running the command as a shell in a VS Code Task, CMD seems to be stripping the single quotes in the arugments. You may have to run this as a `process` type instead of `shell`, and add the arguments separately in VS Code Task config for example so that the command executes with your process instead of defaulting to CMD.
